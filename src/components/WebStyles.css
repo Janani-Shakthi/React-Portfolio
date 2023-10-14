@@ -1,0 +1,82 @@
+.web-card{
+
+}
+
+.web-row{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.web-card img{
+    width: 85vh;
+    height: 50vh;
+    border-radius: 3px;
+    margin: 4rem 1rem 1rem 3rem;
+}
+ video{
+    width: 100vh;
+    height: 50vh;
+    border-radius: 4px;
+    margin: 0 1rem 1rem 3rem;
+    
+}
+
+
+
+.web-row2 h3{
+    color: white;
+    font-size: 2rem;
+    margin: 0 0 .3rem 4rem;
+}
+
+.web-row2 p{
+    color: white;
+    font-size: 1rem;
+    margin: 0 13rem 8rem 4rem;
+    line-height: 1.5rem;
+}
+hr{
+    color: rgb(130, 10, 10);
+}
+
+@media screen and (max-width: 768px) {
+    .web-card img{
+        width: 70vh;
+        height: 40vh;
+        border-radius: 3px;
+        margin: 4rem 1rem 1rem 2rem;
+    }
+
+    video{
+        width: 70vh;
+        height: 50vh;
+        border-radius: 4px;
+        margin: 0 1rem 1rem 2rem;
+        
+    }
+    .web-row2 p{
+        color: white;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        width: 70vh;
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 414px) {
+   .project-heading{
+    font-size: 2.5rem;
+    padding: 0;
+    margin: 0 0 0 10rem;
+   }
+   hr{
+    width: 80vh;
+   }
+   .web-row2 p{
+    color: white;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    width: 65vh;
+    margin-top: 1rem;
+}
+}
